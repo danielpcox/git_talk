@@ -10,4 +10,5 @@ best talk on Git I have ever seen. About half of my slides from from various
 [talks by Chacon](https://github.com/schacon/git-presentations), and I owe him
 tremendously for all of his work.
 
-Thanks also go to Six3 Systems, for allowing me to post this publicly.
+Thanks also go to Six3 Systems for giving me time to prepare the presentation
+and for allowing me to post it publicly.
