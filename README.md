@@ -15,8 +15,9 @@ and for allowing me to post it publicly.
 
 ## Further Useful Information
 
-### What to do when you've committed something you shouldn't have.
-The most common problem I've seen after I gave the presentation was the accidental committing of large files. Here are some things you can do about that:
+### When you've committed something you shouldn't have.
+The most common problem I've seen after I gave the presentation was the accidental committing of large files.
+Here are some things you can do about that.
 
 #### Drop everything and make a good global .gitignore file now.
 You can set a global .gitignore file that applies to all your repositories by editing .gitconfig in your home directory, adding the excludesfile line as follows. 
@@ -48,7 +49,9 @@ vendor/cache
 ```
 
 #### Always start a new repo by creating a .gitignore file in its root
-Add things you don't want in the repo, such as passwords, log files, large files, IDE config files, etc. Don't just rely on your global .gitignore file, because other people working with you might not have one, and you wouldn't want them to commit bad files either.
+Add things you don't want in the repo, such as passwords, log files, large files, IDE config files, etc.
+Don't just rely on your global .gitignore file, because other people working with you might not have one, and you wouldn't want them to commit bad files either.
+GitHub has [a repository full of good default .gitignore files for various types of projects](https://github.com/github/gitignore).
 
 #### How to find big files in your history
 I've attached a simple Ruby script called "big_files" that searches back from a starting point looking for files over some megabyte count you specify. Make it executable and put it somewhere in your path.
