@@ -5,7 +5,7 @@ These are the slides for a talk I gave on Git to my coworkers at Six3 Systems.
 
 ## Acknowledgements
 
-My talk is based on Scott Chacon's talk with the same title, which remains the
+My talk is based on Scott Chacon's [talk with the same title](http://vimeo.com/14629850), which remains the
 best talk on Git I have ever seen. About half of my slides from from various
 [talks by Chacon](https://github.com/schacon/git-presentations), and I owe him
 tremendously for all of his work.
